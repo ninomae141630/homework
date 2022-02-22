@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>星街彗星-與我聯絡</title>
+    <link rel="stylesheet" href="./CSS/mainStyle.css">
+    <style>
+        form{
+            margin: 5%
+        }
+    </style>
+</head>
+<body>
+    <table id="mainTable">
+        <tr>
+            <td colspan="2">
+                <img id="logo" src="./Images/logo.png">
+                <h1 id="title">與我聯絡</h1>
+            </td>
+        </tr>
+        <tr>
+            <td id="menu">
+                <p><a href="./index.html">首頁</a></p>
+                <p><a href="./about.html">關於星街彗星</a></p>
+                <p><a href="./origin.html">原創曲</a></p>
+                <p><a href="./fanArt.html">粉絲創作</a></p>
+                <p><a href="./contact.html">與我聯絡</a></p>
+            </td>
+            <td id="content">
+                <form action="">
+                    <table border="0">
+                        <tr>
+                            <td>暱稱 : </td>
+                            <td>
+                                <input type="text" name="nickname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>性別 : </td>
+                            <td>
+                                <input type="radio"  name="sex" value="1">男
+                                <input type="radio"  name="sex" value="2">女
+                                <input type="radio"  name="sex" value="0">不提供
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>信箱 : </td>
+                            <td>
+                                <input type="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">意見 : </td>
+                            <td>
+                                <textarea name="msg" rows="5" cols="25"></textarea>
+                                    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top"></td>
+                            <td>
+                                <input type="submit" value="送出">
+                                <input type="reset" value="清除">
+                                    
+                            </td>
+                        </tr>
+                    </table>
+
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
